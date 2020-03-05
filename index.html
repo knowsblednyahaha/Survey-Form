@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column title">
+        <h1>Food Delivery</h1>
+      </div>
+      <div class="column form">
+        <div class="form-title">
+          <h3 id="title">Survey Form</h3>
+          <p id="description">Tell us about your experience.</p>
+        </div>
+        <form id="survey-form" action="index.html" method="post">
+
+          <div class="labels">
+            <label for="name" id="name-label">*Name</label>
+          </div>
+          <div class="input-group">
+            <input id="name" type="text" name="name" value="" required>
+          </div>
+
+          <div class="labels">
+            <label for="email" id="email-label">*Email</label>
+          </div>
+          <div class="input-group">
+            <input id="email" type="text" name="email" value="" required>
+          </div>
+
+          <div class="labels">
+            <label for="number" id="number-label">*Age</label>
+          </div>
+          <div class="input-groups">
+            <input id="number" type="number" name="number" value="" required>
+          </div>
+
+          <div class="labels">
+            <label for="select" id="selected-label">Where do you find us?</label>
+          </div>
+          <div class="select-group">
+            <select id="dropdown" name="">
+                <option disabled value selected>Select an option</option>
+                <option value="">Website</option>
+                <option value="">Radio</option>
+                <option value="">Newspaper</option>
+                <option value="">Other</option>
+            </select>
+          </div>
+
+          <div class="labels">
+            <label for="radio" id="radio-label">How much do you like us?</label>
+          </div>
+          <div class="radio-group">
+            <label class="contain">I love it
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+            </label>
+            <label class="contain">I like it
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+            </label>
+            <label class="contain">Its ok
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+            </label>
+            <label class="contain">I dont like it
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+            </label>
+          </div>
+
+          <div class="labels">
+            <label for="checkbox" id="checkbox-label">Where do you contact us?</label>
+          </div>
+          <div class="checkbox-group">
+            <label class="contain">Website
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+            </label>
+            <label class="contain">Mobile App
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            </label>
+            <label class="contain">Email
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            </label>
+            <label class="contain">Others
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            </label>
+          </div>
+
+          <div class="labels">
+            <label for="textarea" id="textarea-labels">Tell us your suggestion to improve this app</label>
+          </div>
+          <div class="input-groups">
+            <textarea name="name" rows="4" cols="30"></textarea>
+          </div>
+
+          <div class="btn">
+            <input type="submit" name="" value="Submit" class="button">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
